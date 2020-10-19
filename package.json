@@ -1,0 +1,60 @@
+{
+  "name": "haml-ruby",
+  "displayName": "Haml - Ruby",
+  "version": "1.0.0",
+  "description": "Yet another extension for HAML syntax highlighting.",
+  "publisher": "JulieMarin",
+  "engines": {
+    "vscode": "*"
+  },
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#333333",
+    "theme": "dark"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "haml",
+        "extensions": [
+          ".haml"
+        ],
+        "aliases": [
+          "Haml",
+          "haml"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "haml",
+        "scopeName": "text.haml",
+        "path": "./syntaxes/haml.json",
+        "embeddedLanguages": {
+          "source.ruby": "ruby"
+        }
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulieMarin/vscode-haml-ruby"
+  },
+  "keywords": [
+    "haml",
+    "language",
+    "rails",
+    "ruby",
+    "syntax"
+  ],
+  "author": "Julie Marin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JulieMarin/vscode-haml-ruby/issues"
+  },
+  "homepage": "https://github.com/JulieMarin/vscode-haml-ruby"
+}
