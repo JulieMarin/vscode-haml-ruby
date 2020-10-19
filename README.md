@@ -1,6 +1,6 @@
 # vscode-haml-ruby
 
-![haml](icon.png)
+![Haml Ruby](./logo.png?raw=true)
 
 Yet another extension for HAML syntax highlighting.
 
